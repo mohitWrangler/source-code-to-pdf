@@ -39,7 +39,7 @@ latex_template1 =r"""\documentclass[letterpaper]{article}
                         \begin{center} \bf{File: """
 
 latex_template2=     r"""} \end{center}
-
+                        \renewcommand{\fcolorbox}[4][]{#4}
                         \inputminted
                         [
                         frame=single,
