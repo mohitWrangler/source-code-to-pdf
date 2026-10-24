@@ -24,7 +24,7 @@ latex_template1 =r"""\documentclass[letterpaper]{article}
                         \usepackage[letterpaper, margin=.4in]{geometry}
 
                         \usepackage{caption}
-                        \usepackage[newfloat]{minted}
+                        \usepackage[highlightmode=immediate]{minted}
                         \captionsetup[listing]{position=top}
 
 
